@@ -1,0 +1,26 @@
+.signup-form {
+  max-width: 300px;
+  margin: 60px auto;
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.signup-form span {
+  display: block;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 4px;
+}
+
+.signup-form .error {
+  color: red;
+}

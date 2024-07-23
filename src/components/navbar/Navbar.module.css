@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  padding: 10px;
+  background-color: #b1b9b3;
+}
+
+.navbar ul {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .title {
+  margin-right: auto;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: white;
+}

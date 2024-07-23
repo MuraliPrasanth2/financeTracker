@@ -1,0 +1,98 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.sidebar h3 {
+  color: #1e9750;
+  margin-bottom: 10px;
+}
+
+.sidebar form {
+  background-color: #1e9750;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sidebar label {
+  color: white;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.sidebar span {
+  font-size: 0.9rem;
+  display: block;
+}
+
+.sidebar input {
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.sidebar input[disabled] {
+  color: grey;
+}
+
+.sidebar button {
+  padding: 5px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
+.sidebar button[disabled] {
+  color: grey;
+}
+
+.sidebar button:hover {
+  color: #1e9750;
+  background: white;
+  cursor: pointer;
+}
+
+.sidebar button[disabled]:hover {
+  color: grey;
+  background: transparent;
+  cursor: initial;
+}
+
+.transactions {
+  margin: 40px;
+  padding: 0;
+}
+
+.transaction {
+  padding: 10px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid green;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.deletebtn {
+  display: block;
+  position: absolute;
+  width: 20px;
+  right: 0px;
+  top: 0px;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.deletebtn:hover {
+  cursor: pointer;
+}

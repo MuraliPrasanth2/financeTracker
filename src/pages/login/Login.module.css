@@ -1,0 +1,26 @@
+.login-form {
+  max-width: 300px;
+  margin: 60px auto;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login-form span {
+  display: block;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 4px;
+}
+
+.login-form .error {
+  color: red;
+}
